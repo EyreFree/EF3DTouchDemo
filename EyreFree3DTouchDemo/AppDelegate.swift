@@ -41,6 +41,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
 
+        var sourceButtonTitle: String?
+
+        //根据按钮标题进行进一步操作
+        switch shortcutItem.localizedTitle {
+        case "3D Touch 测试按钮":
+            sourceButtonTitle = "来源按钮：3D Touch 测试按钮"
+            break
+        case "出来吧，小火龙！":
+            sourceButtonTitle = "来源按钮：出来吧，小火龙！"
+            break
+        default:
+            break
+        }
+
+        //测试操作：弹出一个对话框显示来源按钮
+        if let trySourceButtonTitle = sourceButtonTitle {
+            let alert = UIAlertController(title: nil, message: trySourceButtonTitle, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "知道啦", style: .cancel, handler: nil))
+            self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+        }
+    }
 }
 

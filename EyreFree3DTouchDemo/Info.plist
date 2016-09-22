@@ -41,5 +41,24 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>UIApplicationShortcutItems</key>
+    <array>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeShuffle</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>3D Touch 测试按钮</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>0</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeLove</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>出来吧，小火龙！</string>
+            <key>UIApplicationShortcutItemType</key>
+            <string>1</string>
+        </dict>
+    </array>
 </dict>
 </plist>
