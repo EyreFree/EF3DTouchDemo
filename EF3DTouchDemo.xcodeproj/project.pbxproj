@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841526731D93B92F00AE9263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841526721D93B92F00AE9263 /* AppDelegate.swift */; };
-		841526751D93B92F00AE9263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841526741D93B92F00AE9263 /* ViewController.swift */; };
-		841526781D93B92F00AE9263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841526761D93B92F00AE9263 /* Main.storyboard */; };
-		8415267A1D93B92F00AE9263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841526791D93B92F00AE9263 /* Assets.xcassets */; };
-		8415267D1D93B92F00AE9263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8415267B1D93B92F00AE9263 /* LaunchScreen.storyboard */; };
+		123167811E77E37F00B71351 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123167801E77E37F00B71351 /* AppDelegate.swift */; };
+		123167831E77E37F00B71351 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123167821E77E37F00B71351 /* ViewController.swift */; };
+		123167861E77E37F00B71351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123167841E77E37F00B71351 /* Main.storyboard */; };
+		123167881E77E37F00B71351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123167871E77E37F00B71351 /* Assets.xcassets */; };
+		1231678B1E77E37F00B71351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123167891E77E37F00B71351 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8415266F1D93B92F00AE9263 /* EyreFree3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyreFree3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		841526721D93B92F00AE9263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		841526741D93B92F00AE9263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		841526771D93B92F00AE9263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		841526791D93B92F00AE9263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8415267C1D93B92F00AE9263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8415267E1D93B92F00AE9263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1231677D1E77E37F00B71351 /* EF3DTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EF3DTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		123167801E77E37F00B71351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		123167821E77E37F00B71351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		123167851E77E37F00B71351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		123167871E77E37F00B71351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1231678A1E77E37F00B71351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1231678C1E77E37F00B71351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8415266C1D93B92F00AE9263 /* Frameworks */ = {
+		1231677A1E77E37F00B71351 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		841526661D93B92F00AE9263 = {
+		123167741E77E37F00B71351 = {
 			isa = PBXGroup;
 			children = (
-				841526711D93B92F00AE9263 /* EyreFree3DTouchDemo */,
-				841526701D93B92F00AE9263 /* Products */,
+				1231677F1E77E37F00B71351 /* EF3DTouchDemo */,
+				1231677E1E77E37F00B71351 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		841526701D93B92F00AE9263 /* Products */ = {
+		1231677E1E77E37F00B71351 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8415266F1D93B92F00AE9263 /* EyreFree3DTouchDemo.app */,
+				1231677D1E77E37F00B71351 /* EF3DTouchDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		841526711D93B92F00AE9263 /* EyreFree3DTouchDemo */ = {
+		1231677F1E77E37F00B71351 /* EF3DTouchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				841526721D93B92F00AE9263 /* AppDelegate.swift */,
-				841526741D93B92F00AE9263 /* ViewController.swift */,
-				841526761D93B92F00AE9263 /* Main.storyboard */,
-				841526791D93B92F00AE9263 /* Assets.xcassets */,
-				8415267B1D93B92F00AE9263 /* LaunchScreen.storyboard */,
-				8415267E1D93B92F00AE9263 /* Info.plist */,
+				123167801E77E37F00B71351 /* AppDelegate.swift */,
+				123167821E77E37F00B71351 /* ViewController.swift */,
+				123167841E77E37F00B71351 /* Main.storyboard */,
+				123167871E77E37F00B71351 /* Assets.xcassets */,
+				123167891E77E37F00B71351 /* LaunchScreen.storyboard */,
+				1231678C1E77E37F00B71351 /* Info.plist */,
 			);
-			path = EyreFree3DTouchDemo;
+			path = EF3DTouchDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8415266E1D93B92F00AE9263 /* EyreFree3DTouchDemo */ = {
+		1231677C1E77E37F00B71351 /* EF3DTouchDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841526811D93B92F00AE9263 /* Build configuration list for PBXNativeTarget "EyreFree3DTouchDemo" */;
+			buildConfigurationList = 1231678F1E77E37F00B71351 /* Build configuration list for PBXNativeTarget "EF3DTouchDemo" */;
 			buildPhases = (
-				8415266B1D93B92F00AE9263 /* Sources */,
-				8415266C1D93B92F00AE9263 /* Frameworks */,
-				8415266D1D93B92F00AE9263 /* Resources */,
+				123167791E77E37F00B71351 /* Sources */,
+				1231677A1E77E37F00B71351 /* Frameworks */,
+				1231677B1E77E37F00B71351 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EyreFree3DTouchDemo;
-			productName = EyreFree3DTouchDemo;
-			productReference = 8415266F1D93B92F00AE9263 /* EyreFree3DTouchDemo.app */;
+			name = EF3DTouchDemo;
+			productName = EF3DTouchDemo;
+			productReference = 1231677D1E77E37F00B71351 /* EF3DTouchDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		841526671D93B92F00AE9263 /* Project object */ = {
+		123167751E77E37F00B71351 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = EyreFree;
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = eyrefree;
 				TargetAttributes = {
-					8415266E1D93B92F00AE9263 = {
-						CreatedOnToolsVersion = 8.0;
+					1231677C1E77E37F00B71351 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P3X2725LYY;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 8415266A1D93B92F00AE9263 /* Build configuration list for PBXProject "EyreFree3DTouchDemo" */;
+			buildConfigurationList = 123167781E77E37F00B71351 /* Build configuration list for PBXProject "EF3DTouchDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 841526661D93B92F00AE9263;
-			productRefGroup = 841526701D93B92F00AE9263 /* Products */;
+			mainGroup = 123167741E77E37F00B71351;
+			productRefGroup = 1231677E1E77E37F00B71351 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8415266E1D93B92F00AE9263 /* EyreFree3DTouchDemo */,
+				1231677C1E77E37F00B71351 /* EF3DTouchDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8415266D1D93B92F00AE9263 /* Resources */ = {
+		1231677B1E77E37F00B71351 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8415267D1D93B92F00AE9263 /* LaunchScreen.storyboard in Resources */,
-				8415267A1D93B92F00AE9263 /* Assets.xcassets in Resources */,
-				841526781D93B92F00AE9263 /* Main.storyboard in Resources */,
+				1231678B1E77E37F00B71351 /* LaunchScreen.storyboard in Resources */,
+				123167881E77E37F00B71351 /* Assets.xcassets in Resources */,
+				123167861E77E37F00B71351 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8415266B1D93B92F00AE9263 /* Sources */ = {
+		123167791E77E37F00B71351 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841526751D93B92F00AE9263 /* ViewController.swift in Sources */,
-				841526731D93B92F00AE9263 /* AppDelegate.swift in Sources */,
+				123167831E77E37F00B71351 /* ViewController.swift in Sources */,
+				123167811E77E37F00B71351 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		841526761D93B92F00AE9263 /* Main.storyboard */ = {
+		123167841E77E37F00B71351 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				841526771D93B92F00AE9263 /* Base */,
+				123167851E77E37F00B71351 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8415267B1D93B92F00AE9263 /* LaunchScreen.storyboard */ = {
+		123167891E77E37F00B71351 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8415267C1D93B92F00AE9263 /* Base */,
+				1231678A1E77E37F00B71351 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8415267F1D93B92F00AE9263 /* Debug */ = {
+		1231678D1E77E37F00B71351 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +182,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -209,11 +210,10 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		841526801D93B92F00AE9263 /* Release */ = {
+		1231678E1E77E37F00B71351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +231,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -251,34 +251,31 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		841526821D93B92F00AE9263 /* Debug */ = {
+		123167901E77E37F00B71351 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = EyreFree3DTouchDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				DEVELOPMENT_TEAM = P3X2725LYY;
+				INFOPLIST_FILE = EF3DTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.EyreFree.EyreFree3DTouchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.eyrefree.EF3DTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		841526831D93B92F00AE9263 /* Release */ = {
+		123167911E77E37F00B71351 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = EyreFree3DTouchDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				DEVELOPMENT_TEAM = P3X2725LYY;
+				INFOPLIST_FILE = EF3DTouchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.EyreFree.EyreFree3DTouchDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.eyrefree.EF3DTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -287,25 +284,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8415266A1D93B92F00AE9263 /* Build configuration list for PBXProject "EyreFree3DTouchDemo" */ = {
+		123167781E77E37F00B71351 /* Build configuration list for PBXProject "EF3DTouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8415267F1D93B92F00AE9263 /* Debug */,
-				841526801D93B92F00AE9263 /* Release */,
+				1231678D1E77E37F00B71351 /* Debug */,
+				1231678E1E77E37F00B71351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841526811D93B92F00AE9263 /* Build configuration list for PBXNativeTarget "EyreFree3DTouchDemo" */ = {
+		1231678F1E77E37F00B71351 /* Build configuration list for PBXNativeTarget "EF3DTouchDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				841526821D93B92F00AE9263 /* Debug */,
-				841526831D93B92F00AE9263 /* Release */,
+				123167901E77E37F00B71351 /* Debug */,
+				123167911E77E37F00B71351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 841526671D93B92F00AE9263 /* Project object */;
+	rootObject = 123167751E77E37F00B71351 /* Project object */;
 }

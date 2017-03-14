@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  EyreFree3DTouchDemo
+//  EF3DTouchDemo
 //
-//  Created by EyreFreeWork on 16/9/22.
-//  Copyright © 2016年 EyreFree. All rights reserved.
+//  Created by EyreFree on 17/3/14.
+//  Copyright © 2017年 eyrefree. All rights reserved.
 //
 
 import UIKit
