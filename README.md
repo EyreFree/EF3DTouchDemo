@@ -9,7 +9,7 @@ iOS 集成 3D Touch 快捷菜单 Demo
 
 ## 详细介绍
 
-参见：[http://www.eyrefree.org/2016/09/22/2016-09-22-3D-Touch/](http://www.eyrefree.org/2016/09/22/2016-09-22-3D-Touch/)
+参见：[http://www.jianshu.com/p/28cb171fc667](http://www.jianshu.com/p/28cb171fc667)
 
 ## 作者
 
